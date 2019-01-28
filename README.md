@@ -13,6 +13,7 @@ packages to the target server using nuget push.
 To start open the App.config file and configure the fields under the Mirror section to point to your source and target servers.  You must 
 enter the API key for pushing to the target in the targetApiKey field.
 
+<code>
 <?xml version="1.0" encoding="utf-8" ?>
 <configuration>
   <configSections>
@@ -27,3 +28,4 @@ enter the API key for pushing to the target in the targetApiKey field.
         <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.6.2" />
     </startup>
 </configuration>
+</code>
